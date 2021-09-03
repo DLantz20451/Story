@@ -24,7 +24,7 @@ public class Story {
       int number3 =0;
       int number4 =0;
       int total =0;
-      String firstName = x;
+      String firstName;
       String charName;
       
       Scanner sc = new Scanner(System.in);
@@ -32,7 +32,7 @@ public class Story {
       System.out.println("Hello there traveler, before you can continue, I need your name.");
         firstName = sc.nextLine();
       
-      System.out.println("Nice name +x, now I need your age if you can. ");
+      System.out.println("Nice name , now I need your age if you can. ");
       number1 = sc.nextInt();
       
        System.out.println("One more thing, your hight. ");
