@@ -33,7 +33,7 @@ public class Story {
               + "So first things first, Whats your name.");
         firstName = sc.nextLine();
       
-      System.out.println("Nice name"+firstName , "now I need your age if you can. ");
+      System.out.println("Nice name now I need your age if you can. ");
       number1 = sc.nextInt();
       
       System.out.println("Ok, one more thing, your hight. ");
