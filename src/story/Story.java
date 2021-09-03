@@ -26,6 +26,7 @@ public class Story {
       int total =0;
       String firstName;
       String awnser;
+      String arms;
       
       Scanner sc = new Scanner(System.in);
       
@@ -33,14 +34,16 @@ public class Story {
               + "So first things first, Whats your name.");
         firstName = sc.nextLine();
       
-      System.out.println("Nice name now I need your age if you can. ");
+      System.out.println("Nice name " + firstName +", now I need your age if you can.");
       number1 = sc.nextInt();
       
       System.out.println("Ok, one more thing, your hight. ");
       number2 = sc.nextDouble();
        
-      System.out.print("Perfect, now that you profile is done, lets run you through some basic math, ok.");      
+      System.out.print("Perfect, now that you profile is done, lets run you through some basic math, ok. ");      
       awnser = sc.nextLine();
+      sc.nextLine();
+              
        
       System.out.print("So whats 25 divided by 50? ");
       number3 = sc.nextDouble();
@@ -49,7 +52,10 @@ public class Story {
       number4 = sc.nextInt();
        
       System.out.println("Good job mate, now we just gotta get you armed. so what fighting style do you prefer.");
+      arms = sc.nextLine();
+      sc.nextLine();
        
+      System.out.println( "Hm" + arms + ", nice choice");
     }
     
 }
