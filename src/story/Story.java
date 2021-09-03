@@ -26,7 +26,7 @@ public class Story {
       int total =0;
       String firstName;
       String awnser;
-      String arms;
+      String rangedVsMelee;
       
       Scanner sc = new Scanner(System.in);
       
@@ -51,11 +51,11 @@ public class Story {
       System.out.println("Nice. Ok, now whats 17+32-20");
       number4 = sc.nextInt();
        
-      System.out.println("Good job mate, now we just gotta get you armed. so what fighting style do you prefer.");
-      arms = sc.nextLine();
+      System.out.println("Good job mate, now we just gotta get you armed. so what fighting style do you prefer, ranged or melee");
       sc.nextLine();
+      rangedVsMelee = sc.nextLine();
        
-      System.out.println( "Hm" + arms + ", nice choice");
+      System.out.println( "Hm " + rangedVsMelee + ", nice choice");
     }
     
 }
