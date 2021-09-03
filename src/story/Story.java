@@ -56,6 +56,9 @@ public class Story {
       rangedVsMelee = sc.nextLine();
        
       System.out.println( "Hm " + rangedVsMelee + ", nice choice");
+      sc.nextLine();
+      
+      System.out.println("Now what type of " + rangedVsMelee + " do you prefer");
     }
     
 }
