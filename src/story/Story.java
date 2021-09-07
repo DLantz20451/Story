@@ -23,10 +23,11 @@ public class Story {
       double number2 =0;
       double number3 =0;
       int number4 =0;
-      int total =0;
       String firstName;
       String awnser;
       String rangedVsMelee;
+      String weaponsOfChoice;
+      String travelerTitle;
       
       Scanner sc = new Scanner(System.in);
       
@@ -51,7 +52,8 @@ public class Story {
       System.out.println("Nice. Ok, now whats 17+32-20");
       number4 = sc.nextInt();
        
-      System.out.println("Good job mate, now we just gotta get you armed. so what fighting style do you prefer, ranged or melee");
+      System.out.println("Good job mate, now we just gotta get you armed. So what fighting style do you prefer,"
+              + " ranged or melee");
       sc.nextLine();
       rangedVsMelee = sc.nextLine();
        
@@ -59,6 +61,16 @@ public class Story {
       sc.nextLine();
       
       System.out.println("Now what type of " + rangedVsMelee + " do you prefer");
+      weaponsOfChoice = sc.nextLine();
+      
+      System.out.println("A " + weaponsOfChoice + ", nice choice. Now what title will you give yourself");
+      travelerTitle = sc.nextLine();
+      
+      System.out.println("" + firstName + " The " + travelerTitle + ". Well looks like you're all ready to make "
+              + "a name for yourself. Good luck my friend, if you ever need a hand you just give a shout ok");
+      awnser = sc.nextLine();
+      
+      System.out.println("And so starts " + firstName + "'s Legendary story." );
     }
     
 }
